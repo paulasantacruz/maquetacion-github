@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal de GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .repositories {
+            width: 65%;
+            margin-right: 30px;
+        }
+        
+        .repository {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+        
+        .repository .repo-header {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0366d6;
+            margin-bottom: 10px;
+        }
+        
+        .repository .repo-description {
+            color: #586069;
+        }
+        
+        .sidebar {
+            width: 25%;
+        }
+        
+        .sidebar .profile {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .sidebar .profile .username {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .sidebar .options {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 6px;
+        }
+        
+        .sidebar .options h3 {
+            margin-top: 0;
+        }
+        
+        .sidebar .options ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .sidebar .options ul li {
+            margin-bottom: 10px;
+            cursor: pointer;
+            color: #0366d6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="repositories">
+            <div class="repository">
+                <div class="repo-header">mi-repositorio</div>
+                <div class="repo-description">Este es un ejemplo de descripción de un repositorio.</div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="profile">
+                <div class="username">mi_usuario</div>
+            </div>
+            <div class="options">
+                <h3>Opciones</h3>
+                <ul>
+                    <li>Your repositories</li>
+                    <li>Your stars</li>
+                    <li>Your gists</li>
+                    <li>Explore</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
